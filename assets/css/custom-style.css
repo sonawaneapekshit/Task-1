@@ -20,7 +20,7 @@
 
 .pos-center-bottom {
     left: 50%;
-    bottom: 0%;
+    bottom: 3%;
 }
 
 .mt-10 {
@@ -44,16 +44,31 @@
     margin-left: 5rem !important;
 }
 
+.mr-6 {
+    margin-left: 4rem !important;
+}
+
+.mr-7 {
+    margin-left: 5rem !important;
+}
+
+.bl-1 {
+    border-bottom: 1px solid #f6f6f6;
+}
+
 .icon {
     width: 55px;
     height: 44px;
 }
 
-.landing.jumbotron-fluid .container-fluid {
+.full-size {
     width: 100vw;
     height: 100vh;
     max-width: 100%;
     max-height: 100%;
+}
+
+.landing.jumbotron-fluid .container-fluid {
     background-image: url(../images/jumbotron-background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -76,10 +91,6 @@
 }
 
 .jumbotron-fluid.version-section .container-fluid {
-    width: 100vw;
-    height: 100vh;
-    max-width: 100%;
-    max-height: 100%;
     background-image: url(../images/version-section-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -90,4 +101,22 @@
     height: 48px;
     border-radius: 50px;
     background-color: #ebcb80;
+}
+
+.person {
+    background-image: url(../images/placeholder-person-300x300.jpg);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 96px;
+    height: 95px;
+}
+
+.quote {
+    background-image: url(../images/invalid-name.svg);
+    background-size: contain;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    width: 48px;
+    height: 37px;
 }
