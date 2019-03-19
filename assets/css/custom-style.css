@@ -25,6 +25,10 @@ body *,p,a,div,li,ul,span {
     color: #ebcb80;
 }
 
+.bg-color-grey {
+background-color: #4b4b4b
+}
+
 .pos-r {
     position: relative;
 }
@@ -53,8 +57,7 @@ body *,p,a,div,li,ul,span {
 }
 
 .mt-12 {
-    margin-top: content: '\F3B9';
-    rem !important;
+    margin-top: 8rem !important;
 }
 
 .ml-6 {
