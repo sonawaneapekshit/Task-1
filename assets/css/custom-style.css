@@ -4,10 +4,40 @@
 *
 */
 
+.pos-r {
+    position: relative;
+}
+
+.pos-a {
+    position: absolute;
+}
+
+.pos-center {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
 .jumbotron-fluid .container-fluid {
-  width: 100vw;
-  height: 100vh;
-  background-image: url(../images/jumbotron-background.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../images/jumbotron-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.video-bg {
+    width: 100%;
+    height: 356px;
+    background-image: url(../images/jumbotron-video-thumbnail.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.playbutton {
+    width: 72px;
+    height: 72px;
+    background-image: url(../images/play-button.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
