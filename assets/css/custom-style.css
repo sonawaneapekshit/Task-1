@@ -3,6 +3,9 @@
 *  Custom styling for the page
 *
 */
+body *,p,a,div,li,ul,span {
+    font-family: 'Montserrat', sans-serif;
+}
 
 .navbar-light a.navbar-brand {
     width: 38px;
