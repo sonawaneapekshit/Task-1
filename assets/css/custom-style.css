@@ -3,3 +3,11 @@
 *  Custom styling for the page
 *
 */
+
+.jumbotron-fluid .container-fluid {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../images/jumbotron-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
