@@ -8,6 +8,7 @@
     <title>S. | Home page</title>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700,800,900" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/bootstrap-4.0.0/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css" integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA==" crossorigin="" />
     <link rel="stylesheet" href="assets/css/custom-style.css">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- Leave those next 4 lines if you care about users using IE8 -->
@@ -219,6 +220,11 @@
             </div>
         </div>
     </div>
+    <div class="mt-5">
+        <!--Google map-->
+        <div id="map-container-google" class="z-depth-1-half map-container mt-5" style="height: 450px">
+        </div>
+    </div>
     <footer class="d-flex bg-color-grey">
         <div class="container color-golden">
             <div class="d-flex justify-content-between p-5">
@@ -268,6 +274,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js "></script>
     <script src="assets/js/jquery.min.js "></script>
     <script src="assets/css/bootstrap-4.0.0/dist/js/bootstrap.min.js "></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC1vdZsOdfqLHeZqkQXvGfpzkas9RO76BI"></script>
+    <!-- Leaflet's js -->
+    <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js" integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg==" crossorigin=""></script>
     <script src="assets/js/custom-script.js "></script>
     <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js " integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP " crossorigin="anonymous "></script>
 </body>
