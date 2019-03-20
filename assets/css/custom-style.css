@@ -32,8 +32,30 @@ span {
     color: #ebcb80;
 }
 
+.color-dark {
+    color: #4b4b4b;
+}
+
 .bg-color-grey {
     background-color: #4b4b4b
+}
+
+.bg-color-white-grey {
+    background-color: #f6f6f6;
+}
+
+.bg-sliver {
+    /* background-blend-mode: soft-light; */
+    background-color: #4b4b4b;
+}
+
+.bg-gold {
+    background-color: #ebcb80;
+}
+
+.bg-platinum {
+    /* background-blend-mode: multiply; */
+    background-color: #4b4b4b;
 }
 
 .pos-r {
@@ -143,8 +165,25 @@ span {
     height: 95px;
 }
 
-.card.border-light {
+.testimonial-section .card.border-light {
     width: calc(98%/2 - 4px);
+}
+
+.plan-section .card {
+    width: calc(90%/3 - 40px);
+}
+
+.plan-section h5.card-title {
+    font-size: 52px;
+    line-height: normal;
+}
+
+.plan-section h5.card-title:before {
+    content: '$';
+    font-size: 25px;
+    position: absolute;
+    left: 16px;
+    top: 12px;
 }
 
 .quote {
