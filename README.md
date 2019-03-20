@@ -1,5 +1,5 @@
 # Task-1
-This is demo project task
+This is demo project task:
 
 This project uses following
 1. Bootstrap 4.0
