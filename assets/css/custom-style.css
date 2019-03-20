@@ -143,6 +143,10 @@ span {
     height: 95px;
 }
 
+.card.border-light {
+    width: calc(98%/2 - 4px);
+}
+
 .quote {
     background-image: url(../images/invalid-name.svg);
     background-size: contain;
