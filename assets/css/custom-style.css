@@ -3,7 +3,14 @@
 *  Custom styling for the page
 *
 */
-body *,p,a,div,li,ul,span {
+
+body *,
+p,
+a,
+div,
+li,
+ul,
+span {
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -26,7 +33,7 @@ body *,p,a,div,li,ul,span {
 }
 
 .bg-color-grey {
-background-color: #4b4b4b
+    background-color: #4b4b4b
 }
 
 .pos-r {
@@ -145,6 +152,52 @@ background-color: #4b4b4b
     height: 37px;
 }
 
+.leaflet-popup-tip,
+.leaflet-popup-content-wrapper {
+    background-image: linear-gradient(to bottom, #ebcb80, #ebcb80), linear-gradient(205deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
+}
+
+footer .nav-link {
+    font-size: 14px;
+}
+
+height: 100%;
+width: 100%;
+position: absolute;
+
+}
+footer .nav-link {
+    font-size: 14px;
+}
+height: 100%;
+width: 100%;
+position: absolute;
+
+}
+footer .nav-link {
+    font-size: 14px;
+}
+height: 100%;
+width: 100%;
+position: absolute;
+
+}
+footer .nav-link {
+    font-size: 14px;
+}
+height: 100%;
+width: 100%;
+position: absolute;
+
+}
+footer .nav-link {
+    font-size: 14px;
+}
+height: 100%;
+width: 100%;
+position: absolute;
+
+}
 footer .nav-link {
     font-size: 14px;
 }
